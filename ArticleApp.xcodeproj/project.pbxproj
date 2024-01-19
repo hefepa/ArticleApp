@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		A6184D5F2B5A7CB000F08343 /* ArchiveDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6184D5E2B5A7CB000F08343 /* ArchiveDetailsViewController.swift */; };
 		A6184D622B5A86F100F08343 /* TopStoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6184D602B5A86F100F08343 /* TopStoryDetailsViewController.swift */; };
 		A6184D632B5A86F100F08343 /* TopStoryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6184D612B5A86F100F08343 /* TopStoryDetailsViewController.xib */; };
+=======
+>>>>>>> refs/remotes/origin/main
 		A64947142B5935590000479C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64947132B5935590000479C /* AppDelegate.swift */; };
 		A64947162B5935590000479C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64947152B5935590000479C /* SceneDelegate.swift */; };
 		A649471D2B59355A0000479C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A649471C2B59355A0000479C /* Assets.xcassets */; };
@@ -30,9 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		A6184D5E2B5A7CB000F08343 /* ArchiveDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDetailsViewController.swift; sourceTree = "<group>"; };
 		A6184D602B5A86F100F08343 /* TopStoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoryDetailsViewController.swift; sourceTree = "<group>"; };
 		A6184D612B5A86F100F08343 /* TopStoryDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopStoryDetailsViewController.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> refs/remotes/origin/main
 		A64947102B5935590000479C /* ArticleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64947132B5935590000479C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64947152B5935590000479C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		A6184D642B5AA77700F08343 /* TopStoryModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +123,8 @@
 			path = ArchiveModel;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> refs/remotes/origin/main
 		A64947072B5935590000479C = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				A64947382B5937D20000479C /* NetworkCallGroup */,
+<<<<<<< HEAD
+=======
+				A64947352B5937B80000479C /* ModelGroup */,
+>>>>>>> refs/remotes/origin/main
 				A64947342B59377E0000479C /* TabGroup */,
 				A64947332B59374E0000479C /* TopStoryGroup */,
 				A649472E2B5937280000479C /* ArchiveGroup */,
@@ -159,10 +172,16 @@
 		A649472E2B5937280000479C /* ArchiveGroup */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				A6184D692B5AA84200F08343 /* ArchiveModel */,
 				A6184D682B5AA82B00F08343 /* ArchiveDetails */,
 				A6184D672B5AA81100F08343 /* ArchiveController */,
 				A64947432B5974520000479C /* Cell */,
+=======
+				A64947432B5974520000479C /* Cell */,
+				A649472F2B5937450000479C /* ArchiveViewController.swift */,
+				A64947302B5937450000479C /* ArchiveViewController.xib */,
+>>>>>>> refs/remotes/origin/main
 			);
 			path = ArchiveGroup;
 			sourceTree = "<group>";
@@ -170,10 +189,16 @@
 		A64947332B59374E0000479C /* TopStoryGroup */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				A6184D662B5AA7B900F08343 /* TopStoryDetails */,
 				A6184D652B5AA79400F08343 /* TopStoryController */,
 				A6184D642B5AA77700F08343 /* TopStoryModel */,
 				A64947422B593E2F0000479C /* Cell */,
+=======
+				A64947422B593E2F0000479C /* Cell */,
+				A649472A2B59370D0000479C /* TopStoryViewController.swift */,
+				A649472B2B59370D0000479C /* TopStoryViewController.xib */,
+>>>>>>> refs/remotes/origin/main
 			);
 			path = TopStoryGroup;
 			sourceTree = "<group>";
@@ -186,6 +211,18 @@
 			path = TabGroup;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		A64947352B5937B80000479C /* ModelGroup */ = {
+			isa = PBXGroup;
+			children = (
+				A64947362B5937C90000479C /* Model.swift */,
+				A64947482B59795E0000479C /* BookModel.swift */,
+			);
+			path = ModelGroup;
+			sourceTree = "<group>";
+		};
+>>>>>>> refs/remotes/origin/main
 		A64947382B5937D20000479C /* NetworkCallGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +316,10 @@
 				A64947202B59355A0000479C /* LaunchScreen.storyboard in Resources */,
 				A649472D2B59370D0000479C /* TopStoryViewController.xib in Resources */,
 				A64947472B59746A0000479C /* BookTableViewCell.xib in Resources */,
+<<<<<<< HEAD
 				A6184D632B5A86F100F08343 /* TopStoryDetailsViewController.xib in Resources */,
+=======
+>>>>>>> refs/remotes/origin/main
 				A649471D2B59355A0000479C /* Assets.xcassets in Resources */,
 				A64947412B593E290000479C /* TopStoryTableViewCell.xib in Resources */,
 				A64947322B5937450000479C /* ArchiveViewController.xib in Resources */,
@@ -297,10 +337,15 @@
 				A649473A2B5937ED0000479C /* NetworkCall.swift in Sources */,
 				A64947142B5935590000479C /* AppDelegate.swift in Sources */,
 				A649472C2B59370D0000479C /* TopStoryViewController.swift in Sources */,
+<<<<<<< HEAD
 				A6184D5F2B5A7CB000F08343 /* ArchiveDetailsViewController.swift in Sources */,
 				A649473D2B593AFA0000479C /* TabHomeController.swift in Sources */,
 				A64947462B59746A0000479C /* BookTableViewCell.swift in Sources */,
 				A6184D622B5A86F100F08343 /* TopStoryDetailsViewController.swift in Sources */,
+=======
+				A649473D2B593AFA0000479C /* TabHomeController.swift in Sources */,
+				A64947462B59746A0000479C /* BookTableViewCell.swift in Sources */,
+>>>>>>> refs/remotes/origin/main
 				A64947372B5937C90000479C /* Model.swift in Sources */,
 				A64947402B593E290000479C /* TopStoryTableViewCell.swift in Sources */,
 				A64947312B5937450000479C /* ArchiveViewController.swift in Sources */,

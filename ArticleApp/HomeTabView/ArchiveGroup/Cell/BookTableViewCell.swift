@@ -17,11 +17,19 @@ class BookTableViewCell: UITableViewCell {
     @IBOutlet weak var authorLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> refs/remotes/origin/main
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
+<<<<<<< HEAD
         //Container
+=======
+>>>>>>> refs/remotes/origin/main
         viewContainer.layer.cornerRadius = 20
         viewContainer.layer.shadowColor = UIColor.black.cgColor
         viewContainer.layer.shadowOpacity = 0.1

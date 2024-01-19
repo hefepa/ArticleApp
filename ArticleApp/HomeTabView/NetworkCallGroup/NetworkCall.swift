@@ -11,7 +11,11 @@ struct NetworkCall{
     let session = URLSession.shared
     
     
+<<<<<<< HEAD
     func fetchStories(url: URL) async throws -> TopStoriesModel? {
+=======
+    func fetch(url: URL) async throws -> TopStoriesModel? {
+>>>>>>> refs/remotes/origin/main
         do {
             let (data, _) = try await session.data(from: url)
             let jsonDecoder = JSONDecoder()
@@ -21,7 +25,17 @@ struct NetworkCall{
             throw error
         }
     }
+<<<<<<< HEAD
     func fetchBooks(url: URL) async throws -> BookModel? {
+=======
+}
+
+struct NetworkCallTwo{
+    let session = URLSession.shared
+    
+    
+    func fetch(url: URL) async throws -> BookModel? {
+>>>>>>> refs/remotes/origin/main
         do {
             let (data, _) = try await session.data(from: url)
             let jsonDecoder = JSONDecoder()
@@ -32,6 +46,9 @@ struct NetworkCall{
         }
     }
 }
+<<<<<<< HEAD
     
     
    
+=======
+>>>>>>> refs/remotes/origin/main

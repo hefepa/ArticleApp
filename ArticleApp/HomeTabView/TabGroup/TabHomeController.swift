@@ -8,7 +8,11 @@
 import UIKit
 
 class TabHomeController: UITabBarController {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> refs/remotes/origin/main
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.backgroundColor = .systemGray6
@@ -26,6 +30,10 @@ class TabHomeController: UITabBarController {
         topStoryController.tabBarItem.selectedImage = UIImage(systemName: "newspaper.fill")
         archiveController.tabBarItem.selectedImage = UIImage(systemName: "books.vertical.fill")
         
+<<<<<<< HEAD
         setViewControllers([UINavigationController(rootViewController: topStoryController), UINavigationController(rootViewController: archiveController)], animated: true)
+=======
+        setViewControllers([topStoryController, archiveController], animated: true)
+>>>>>>> refs/remotes/origin/main
     }
 }
