@@ -21,6 +21,7 @@ class BookTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         
+        //Container
         viewContainer.layer.cornerRadius = 20
         viewContainer.layer.shadowColor = UIColor.black.cgColor
         viewContainer.layer.shadowOpacity = 0.1
