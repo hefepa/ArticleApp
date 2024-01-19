@@ -47,16 +47,18 @@ class ArchiveDetailsViewController: UIViewController {
         
         NSLayoutConstraint.activate(
             [
+                //Image Constraint
                 imgView.heightAnchor.constraint(equalToConstant: 200),
                 imgView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
                 imgView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
                 imgView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
                 
-                
+                //Title Constraint
                 titleLabel.topAnchor.constraint(equalTo: imgView.bottomAnchor, constant: 10),
                 titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
                 titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
                 
+                //Description Constraint
                 descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 30),
                 descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
                 descriptionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
